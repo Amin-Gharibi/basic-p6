@@ -17,6 +17,6 @@ if (isNaN(numberOfStudents) || (numberOfStudents <= 0)) {
     }
 
     finalAnswer = gradesSum / numberOfStudents
+    
+    alert(`avg grage is: ${finalAnswer}`)
 }
-
-alert(`avg grage is: ${finalAnswer}`)
